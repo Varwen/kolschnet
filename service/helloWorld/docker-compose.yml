@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+    spring:
+        build:
+            dockerfile: ./docker/Dockerfile-Spring
+            context: .
+        ports:
+            - "9900:9900"
+        container_name: "helloworld"
+        networks:
+            - kolschnet
+        restart: on-failure
+
+networks:
+    kolschnet:
+        external:
+            name: kolschnet
