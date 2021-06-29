@@ -1,11 +1,11 @@
 stream {
   # Configuration specific to TCP/UDP and affecting all virtual servers
-  server {
+  #server {
     # configuration of TCP virtual server 1
 
-    listen 25565;
+  #  listen 25565;
 
-    set $tcp_stream minecraft:25565;
-    proxy_pass $tcp_stream;
-  }
+   # set $tcp_stream minecraft:25565;
+   # proxy_pass $tcp_stream;
+  #}
 }
