@@ -9,7 +9,7 @@ services:
             - kolschnet
         restart: always
         volumes:
-            - "./config:/etc/nginx/conf.d"
+            - "./config:/etc/nginx"
 networks:
     kolschnet:
         external:

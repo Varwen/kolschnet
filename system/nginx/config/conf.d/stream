@@ -1,0 +1,6 @@
+stream {
+  # Configuration specific to TCP/UDP and affecting all virtual servers
+  server {
+    # configuration of TCP virtual server 1
+  }
+}
