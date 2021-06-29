@@ -3,6 +3,8 @@ http {
     listen 80;
     server_name  helloworld.kolschnet.de;
 
+    resolver 127.0.0.11 valid=30s;
+
     # configuration of HTTP virtual server 1
     location ~ ^/(.*)$ {
       set $api_upstream helloworld:9900;
