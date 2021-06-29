@@ -32,7 +32,9 @@ http {
 
         resolver 127.0.0.11 valid=30s;
 
+      location ~ / {
         set $api_upstream minecraft:9901;
         proxy_pass $api_upstream;
+      }
       }
 }
