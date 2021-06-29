@@ -4,6 +4,6 @@ stream {
     # configuration of TCP virtual server 1
 
     listen 25565;
-    proxy_pass minecraft:25565;
+    proxy_pass tcp://minecraft:25565;
   }
 }
