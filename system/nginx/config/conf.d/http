@@ -27,7 +27,7 @@ http {
 
     server {
 
-        listen 80;
+        listen 25565;
         server_name  minecraft.kolschnet.de;
 
         resolver 127.0.0.11 valid=30s;
