@@ -4,7 +4,6 @@ stream {
     # configuration of TCP virtual server 1
 
     listen 25565;
-    server_name  minecraft.kolschnet.de;
     proxy_pass minecraft:25565;
   }
 }
