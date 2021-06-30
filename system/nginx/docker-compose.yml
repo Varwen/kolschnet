@@ -5,7 +5,6 @@ services:
         container_name: "reverseproxy"
         ports:
             - "80:80"
-            - "25565:25565"
         networks:
             - kolschnet
         restart: always
