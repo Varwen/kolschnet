@@ -6,6 +6,6 @@ stream {
     listen 25565;
 
     set $tcp_stream minecraft:9901;
-    proxy_pass $tcp_stream;
+    proxy_pass tcp://$tcp_stream;
   }
 }
