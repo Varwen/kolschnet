@@ -24,17 +24,4 @@ http {
         proxy_redirect off;
       }
     }
-
-    server {
-
-        listen 25565;
-        server_name  minecraft.kolschnet.de;
-
-        resolver 127.0.0.11 valid=30s;
-
-      location ~ / {
-        set $api_upstream minecraft:9901;
-        proxy_pass $api_upstream;
-      }
-      }
 }
