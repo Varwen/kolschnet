@@ -5,7 +5,7 @@ services:
             dockerfile: ./docker/Dockerfile-Spring
             context: .
         ports:
-            - "9900:9900"
+            - "9901:9900"
         container_name: "helloworld"
         networks:
             - kolschnet
