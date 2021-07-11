@@ -4,6 +4,7 @@ http {
     listen 80;
     server_name  kolschnet.de;
   }
+
   server {
     listen 80;
     server_name  gitlab.kolschnet.de;

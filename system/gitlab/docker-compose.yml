@@ -3,6 +3,7 @@ services:
     gitlab:
         image: gitlab/gitlab-ee:latest
         restart: always
+        container_name: "gitlab"
         ports:
             - "9900:80"
             ##- "443:443"
