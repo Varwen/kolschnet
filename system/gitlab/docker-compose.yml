@@ -1,4 +1,5 @@
-web:
+version: '3.1'
+services:
     image: 'gitlab/gitlab-ee:latest'
     restart: always
     hostname: 'gitlab.kolschnet.de'
