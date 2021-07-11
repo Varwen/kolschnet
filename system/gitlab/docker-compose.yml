@@ -1,16 +1,23 @@
 version: '3.1'
 services:
-    image: 'gitlab/gitlab-ee:latest'
-    restart: always
-    hostname: 'gitlab.kolschnet.de'
-    environment:
-        GITLAB_OMNIBUS_CONFIG: |
-            external_url 'https://gitlab.kolschnet.de'
-    ports:
-        - '80:80'
-        - '443:443'
-        - '22:22'
-    volumes:
-        - '$GITLAB_HOME/config:/etc/gitlab'
-        - '$GITLAB_HOME/logs:/var/log/gitlab'
-        - '$GITLAB_HOME/data:/var/opt/gitlab'
+    gitlab:
+        image: gitlab/gitlab-ee:latest
+        restart: always
+        hostname: gitlab.kolschnet.de
+        environment:
+            GITLAB_OMNIBUS_CONFIG: |
+                external_url 'https://gitlab.kolschnet.de'
+        ports:
+            - '80:80'
+            - '443:443'
+            - '22:22'
+        networks:
+            - kolschnet
+        volumes:
+            - '$GITLAB_HOME/config:/etc/gitlab'
+            - '$GITLAB_HOME/logs:/var/log/gitlab'
+            - '$GITLAB_HOME/data:/var/opt/gitlab'
+networks:
+    kolschnet:
+        external:
+            name: kolschnet
