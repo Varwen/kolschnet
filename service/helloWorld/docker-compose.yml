@@ -9,7 +9,7 @@ services:
         container_name: "helloworld"
         networks:
             - kolschnet
-        restart: on-failure
+        restart: always
 
 networks:
     kolschnet:
