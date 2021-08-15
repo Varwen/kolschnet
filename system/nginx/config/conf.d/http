@@ -6,6 +6,7 @@ http {
   }
 
   server {
+
     listen 80;
     server_name  gitlab.kolschnet.de;
 
@@ -13,7 +14,7 @@ http {
 
     # configuration of HTTP virtual server 1
     location ~ ^/(.*)$ {
-      set $api_upstream helloworld:9901;
+      set $api_upstream gitlab:9900;
       proxy_pass http://$api_upstream/$1$is_args$args;
 
       proxy_set_header X-Real-IP $remote_addr;
@@ -33,7 +34,7 @@ http {
 
     resolver 127.0.0.11 valid=30s;
 
-    # configuration of HTTP virtual server 1
+    # configuration of HTTP virtual server 2
     location ~ ^/(.*)$ {
       set $api_upstream helloworld:9901;
       proxy_pass http://$api_upstream/$1$is_args$args;
