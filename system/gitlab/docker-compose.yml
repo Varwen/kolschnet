@@ -5,7 +5,7 @@ services:
         container_name: "gitlab"
         ports:
             - "22:22"
-            - "80:80"
+            - "9900:80"
             - "443:443"
         volumes:
             - $GITLAB_HOME/data:/var/opt/gitlab
