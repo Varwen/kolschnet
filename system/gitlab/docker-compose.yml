@@ -11,11 +11,12 @@ services:
             - $GITLAB_HOME/data:/var/opt/gitlab
             - $GITLAB_HOME/logs:/var/log/gitlab
             - $GITLAB_HOME/config:/etc/gitlab
-        hostname: 'gitlab'
+        # hostname: 'gitlab.kolschnet.de'
         environment:
             GITLAB_OMNIBUS_CONFIG: |
-                external_url 'gitlab'
                 gitlab_rails['gitlab_shell_ssh_port'] = 2201
+            #GITLAB_OMNIBUS_CONFIG: |
+            #    external_url 'gitlab.example.com'
         networks:
             - kolschnet
 networks:
