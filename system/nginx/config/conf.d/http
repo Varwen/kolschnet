@@ -13,7 +13,7 @@ http {
 
     # configuration of HTTP virtual server 1
     location ~ ^/(.*)$ {
-      set $api_upstream helloworld:9900;
+      set $api_upstream helloworld:9901;
       proxy_pass http://$api_upstream/$1$is_args$args;
 
       proxy_set_header X-Real-IP $remote_addr;
