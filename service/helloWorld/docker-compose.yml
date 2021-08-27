@@ -6,7 +6,7 @@ services:
             context: .
         ports:
             - "9901:9900"
-        container_name: "helloworld"
+        container_name: "testserver"
         networks:
             - kolschnet
         restart: always
