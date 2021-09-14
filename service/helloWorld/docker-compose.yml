@@ -5,11 +5,12 @@ services:
             dockerfile: ./docker/Dockerfile-Spring
             context: .
         ports:
-            - '9901'
-            - '9900'
+            - "9901:9900"
         container_name: "testserver"
         networks:
-            - kolschnet
+            kolschnet:
+                aliases:
+                    - testserver
         restart: always
 
 networks:
