@@ -7,24 +7,11 @@ services:
         ports:
             - "9901:9900"
         container_name: "testserver"
-        restart: always
         networks:
-            backend:
-                aliases:
-                    - backend
-            kolschnet:
-                aliases:
-                    - backend
+            - kolschnet
+        restart: always
 
 networks:
-    backend:
-        driver: bridge
-        driver_opts:
-            com.docker.network.internal: "true"
-        ipam:
-            driver: default
-            config:
-                - subnet: 10.94.1.0/29
     kolschnet:
         external:
             name: kolschnet
