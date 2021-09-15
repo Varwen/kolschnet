@@ -14,7 +14,7 @@ services:
         hostname: 'gitlab.kolschnet.de'
         environment:
             GITLAB_OMNIBUS_CONFIG: |
-                external_url 'gitlab.kolschnet.de'
+                external_url 'http://gitlab.kolschnet.de'
                 gitlab_rails['gitlab_shell_ssh_port'] = 2201
         networks:
             - kolschnet
