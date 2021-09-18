@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+  reverseproxy:
+    image: atlassian/bitbucket-server
+    container_name: "bitbucket"
+    ports:
+      - "9902:9902"
+    networks:
+      - kolschnet
+    restart: always
+    volumes:
+      - "./config:/var/atlassian/application-data/bitbucket"
+    environment:
+      - "BITBUCKET_PROXY_NAME=bitbucket"
+      - "BITBUCKET_PROXY_PORT=9902"
+networks:
+  kolschnet:
+    external:
+      name: kolschnet
