@@ -1,0 +1,30 @@
+=== puma startup: 2021-09-18 13:31:34 +0000 ===
+{"timestamp":"2021-09-18T13:31:34.659Z","pid":842,"message":"! Promoting existing objects to old generation..."}
+{"timestamp":"2021-09-18T13:31:34.880Z","pid":842,"message":"! Compacting..."}
+Note: GC compacting is currently disabled. Refer to `config/initializers_before_autoloader/003_gc_compact.rb` for details.
+{"timestamp":"2021-09-18T13:31:34.880Z","pid":842,"message":"! Friendly fork preparation complete."}
+{"timestamp":"2021-09-18T13:31:35.167Z","pid":842,"message":"- Worker 1 (PID: 1085) booted in 0.25s, phase: 0"}
+{"timestamp":"2021-09-18T13:31:35.232Z","pid":842,"message":"- Worker 0 (PID: 1083) booted in 0.34s, phase: 0"}
+{"timestamp":"2021-09-18T13:31:35.253Z","pid":842,"message":"- Worker 2 (PID: 1087) booted in 0.32s, phase: 0"}
+{"timestamp":"2021-09-18T13:31:35.285Z","pid":842,"message":"- Worker 4 (PID: 1091) booted in 0.3s, phase: 0"}
+{"timestamp":"2021-09-18T13:31:35.315Z","pid":842,"message":"- Worker 5 (PID: 1093) booted in 0.31s, phase: 0"}
+{"timestamp":"2021-09-18T13:31:35.328Z","pid":842,"message":"- Worker 3 (PID: 1089) booted in 0.37s, phase: 0"}
+{"timestamp":"2021-09-18T13:31:54.466Z","pid":842,"message":"PumaWorkerKiller: Consuming 6581.3203125 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:32:14.467Z","pid":842,"message":"PumaWorkerKiller: Consuming 6597.93359375 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:32:34.468Z","pid":842,"message":"PumaWorkerKiller: Consuming 6572.6171875 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:32:54.469Z","pid":842,"message":"PumaWorkerKiller: Consuming 6568.265625 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:33:14.469Z","pid":842,"message":"PumaWorkerKiller: Consuming 6581.48046875 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:33:34.470Z","pid":842,"message":"PumaWorkerKiller: Consuming 6529.54296875 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:33:54.471Z","pid":842,"message":"PumaWorkerKiller: Consuming 6534.24609375 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:34:14.472Z","pid":842,"message":"PumaWorkerKiller: Consuming 6555.62890625 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:34:34.472Z","pid":842,"message":"PumaWorkerKiller: Consuming 6531.1953125 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:34:54.473Z","pid":842,"message":"PumaWorkerKiller: Consuming 6531.046875 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:35:14.474Z","pid":842,"message":"PumaWorkerKiller: Consuming 6552.55078125 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:35:34.475Z","pid":842,"message":"PumaWorkerKiller: Consuming 6552.98046875 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:35:54.475Z","pid":842,"message":"PumaWorkerKiller: Consuming 6557.5234375 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:36:14.476Z","pid":842,"message":"PumaWorkerKiller: Consuming 6562.3125 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:36:34.477Z","pid":842,"message":"PumaWorkerKiller: Consuming 6562.140625 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:36:54.478Z","pid":842,"message":"PumaWorkerKiller: Consuming 6566.99609375 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:37:14.479Z","pid":842,"message":"PumaWorkerKiller: Consuming 6587.73046875 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:37:34.480Z","pid":842,"message":"PumaWorkerKiller: Consuming 6562.80859375 mb with master and 6 workers."}
+{"timestamp":"2021-09-18T13:37:54.480Z","pid":842,"message":"PumaWorkerKiller: Consuming 6562.1015625 mb with master and 6 workers."}

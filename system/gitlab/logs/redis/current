@@ -1,0 +1,14 @@
+2021-09-18_13:29:27.19027 493:C 18 Sep 2021 13:29:27.189 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-09-18_13:29:27.19033 493:C 18 Sep 2021 13:29:27.189 # Redis version=6.0.14, bits=64, commit=941d58d4, modified=1, pid=493, just started
+2021-09-18_13:29:27.19033 493:C 18 Sep 2021 13:29:27.189 # Configuration loaded
+2021-09-18_13:29:27.19034 493:M 18 Sep 2021 13:29:27.189 * Running mode=standalone, port=0.
+2021-09-18_13:29:27.19034 493:M 18 Sep 2021 13:29:27.189 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2021-09-18_13:29:27.19034 493:M 18 Sep 2021 13:29:27.189 # Server initialized
+2021-09-18_13:29:27.19034 493:M 18 Sep 2021 13:29:27.189 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2021-09-18_13:29:27.19035 493:M 18 Sep 2021 13:29:27.189 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+2021-09-18_13:29:27.19037 493:M 18 Sep 2021 13:29:27.190 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-09-18_13:34:28.07448 493:M 18 Sep 2021 13:34:28.074 * 10 changes in 300 seconds. Saving...
+2021-09-18_13:34:28.07629 493:M 18 Sep 2021 13:34:28.076 * Background saving started by pid 1821
+2021-09-18_13:34:28.08078 1821:C 18 Sep 2021 13:34:28.080 * DB saved on disk
+2021-09-18_13:34:28.08121 1821:C 18 Sep 2021 13:34:28.081 * RDB: 8 MB of memory used by copy-on-write
+2021-09-18_13:34:28.17654 493:M 18 Sep 2021 13:34:28.176 * Background saving terminated with success

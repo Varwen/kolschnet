@@ -1,0 +1,20 @@
+172.18.0.3 - - [18/Sep/2021:13:31:03 +0000] "GET / HTTP/1.0" 502 2940 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:03 +0000] "GET /favicon.ico HTTP/1.0" 502 2940 "http://gitlab.kolschnet.de/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:10 +0000] "GET / HTTP/1.0" 502 2940 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:11 +0000] "GET /favicon.ico HTTP/1.0" 502 2940 "http://gitlab.kolschnet.de/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:11 +0000] "GET / HTTP/1.0" 502 2940 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:11 +0000] "GET /favicon.ico HTTP/1.0" 502 2940 "http://gitlab.kolschnet.de/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:11 +0000] "GET / HTTP/1.0" 502 2940 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:31:11 +0000] "GET /favicon.ico HTTP/1.0" 502 2940 "http://gitlab.kolschnet.de/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+127.0.0.1 - - [18/Sep/2021:13:31:57 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
+172.18.0.3 - - [18/Sep/2021:13:32:51 +0000] "GET / HTTP/1.0" 499 0 "http://gitlab.kolschnet.de/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:32:51 +0000] "GET / HTTP/1.0" 302 106 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:32:52 +0000] "GET /users/sign_in HTTP/1.0" 200 28178 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+127.0.0.1 - - [18/Sep/2021:13:32:57 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
+127.0.0.1 - - [18/Sep/2021:13:33:58 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
+127.0.0.1 - - [18/Sep/2021:13:34:58 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
+172.18.0.3 - - [18/Sep/2021:13:35:38 +0000] "GET /users/sign_in HTTP/1.0" 200 28178 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+172.18.0.3 - - [18/Sep/2021:13:35:38 +0000] "GET /assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png HTTP/1.0" 200 1611 "http://gitlab.kolschnet.de/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" -
+127.0.0.1 - - [18/Sep/2021:13:35:59 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
+127.0.0.1 - - [18/Sep/2021:13:36:59 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
+127.0.0.1 - - [18/Sep/2021:13:37:59 +0000] "GET /help HTTP/1.1" 200 73607 "" "curl/7.77.0-DEV" -
