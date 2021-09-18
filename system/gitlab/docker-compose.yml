@@ -5,13 +5,13 @@ services:
         container_name: "gitlab"
         ports:
             - "2201:22"
-            - "9900:80"
+            - "9900:9900"
             # - "443:443"
         volumes:
             - $GITLAB_HOME/data:/var/opt/gitlab
             - $GITLAB_HOME/logs:/var/log/gitlab
             - $GITLAB_HOME/config:/etc/gitlab
-        hostname: 'gitlab.kolschnet.de'
+        hostname: 'kolschnet.de:9900'
         environment:
             GITLAB_OMNIBUS_CONFIG: |
                 external_url 'http://gitlab.kolschnet.de'
