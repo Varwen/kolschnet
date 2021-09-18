@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+    spring:
+        build:
+            dockerfile: ./docker/Dockerfile-Spring
+            context: .
+        ports:
+            - "9901:9901"
+        container_name: "testserver"
+        networks:
+            kolschnet:
+                aliases:
+                    - testserver
+        restart: always
+
+networks:
+    kolschnet:
+        external:
+            name: kolschnet
