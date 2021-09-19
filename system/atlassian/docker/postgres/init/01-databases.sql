@@ -1,2 +1,2 @@
 -- create databases
-CREATE DATABASE IF NOT EXISTS bitbucket;
+CREATE DATABASE bitbucket;
