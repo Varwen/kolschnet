@@ -11,8 +11,8 @@ services:
     volumes:
       - "./config:/var/atlassian/application-data/bitbucket"
     environment:
-      - "BITBUCKET_PROXY_NAME=bitbucket"
-      - "BITBUCKET_PROXY_PORT=9902"
+      - "BITBUCKET_PROXY_NAME=bitbucket.internal"
+      - "BITBUCKET_PROXY_PORT=80"
 networks:
   kolschnet:
     external:
