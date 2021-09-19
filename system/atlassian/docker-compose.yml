@@ -1,3 +1,5 @@
+# Atlassian ist keine Option, aufgrund der verursachten kosten
+
 version: '3.1'
 services:
   bitbucket:
