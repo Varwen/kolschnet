@@ -8,9 +8,9 @@ services:
       - "9900:9900"
       # - "443:443"
     volumes:
-      - ./data:/var/opt/gitlab
-      - ./logs:/var/log/gitlab
-      - ./config:/etc/gitlab
+      - $GITLAB_HOME/data:/var/opt/gitlab
+      - $GITLAB_HOME/logs:/var/log/gitlab
+      - $GITLAB_HOME/config:/etc/gitlab
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://kolschnet.de:9900'
